@@ -18,13 +18,13 @@ Conversations are organized by topics, thereby enabling precise modeling of topi
 
 For each speaker pair, the dataset includes:
 -  Up to 3 topics.
--  14 conversational turns for each topic as short-term memory.
+-  AVG 30 conversational turns for each topic as short-term memory.
 -  Speaker-specific knowledge graphs as long-term memory derived from MSC dataset conversations.
 -  20 Memory-grounded QA pairs per topic probing both short- and long-term memory.
 
 At full scale, the dataset comprises:
 - 1,001 persona profiles.
-- 4,004 conversations totaling 94,520 conversational turns.
+- 4,004 conversations totaling 89,550 conversational turns.
 - 2,985 topic instances across conversations.
 - 146,237 speaker-wise knowledge graphs.
 - 59,700 QA pairs for memory evaluation.
@@ -151,7 +151,7 @@ Below is a snippet showing the dataset structure for a **single topic** with **s
                         "object": "deer meat makes good jerky", 
                         "source_turn": 21 
                     },
-		    {   "subject": "speaker2", 
+		    {           "subject": "speaker2", 
                         "relation": "not favorite", 
                         "object": "deer meat", 
                         "source_turn": 21 
@@ -168,7 +168,7 @@ Below is a snippet showing the dataset structure for a **single topic** with **s
                         "source_turn": 23 
 		    },
                     {   "subject": "speaker2", 
-		        "relation": "is a big fan of", 
+ 						"relation": "is a big fan of", 
                         "object": "mac n' cheese", 
                         "source_turn": 23 
 		    },
@@ -178,7 +178,7 @@ Below is a snippet showing the dataset structure for a **single topic** with **s
                         "object": "speaker1 the recipe for jerk chicken",
                         "source_turn": 24
                     },
-    		    {   "subject": "speaker2", 
+    		    {       "subject": "speaker2", 
                         "relation": "has recipe for", 
                         "object": "jerk chicken", 
                         "source_turn": 25 

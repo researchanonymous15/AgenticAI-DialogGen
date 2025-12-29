@@ -9,7 +9,7 @@ This repository contains a sample version of the TopicGuidedChat (TGC) dataset g
 
 ## **Publication Status**
 
-_This paper* has been submitted to WSDM 2026 and is currently under review. This repository provides only a sample to illustrate the dataset schema and content. The complete version of the dataset will be released after the paper review process._
+_This paper* has been submitted to ACL 2026 and is currently under review. This repository provides only a sample to illustrate the dataset schema and content. The complete version of the dataset will be released after the paper review process._
 
 
 ## **About the TGC Dataset**

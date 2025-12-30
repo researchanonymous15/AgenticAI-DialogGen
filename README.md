@@ -23,11 +23,15 @@ For each speaker pair, the dataset includes:
 -  20 Memory-grounded QA pairs per topic probing both short- and long-term memory.
 
 At full scale, the dataset comprises:
-- 1,001 persona profiles.
-- 4,004 conversations totaling 89,550 conversational turns.
-- 2,985 topic instances across conversations.
-- 146,237 speaker-wise knowledge graphs.
-- 59,700 QA pairs for memory evaluation.
+- 88,500 conversational turns
+- Avg. 30 conversational turns per topic
+- 2,950 topics
+- Avg. 3 topics per persona pair
+- 1,001 persona pairs
+- Avg. 10 knowledge graphs per topic
+- 59,000 memory QA pairs
+- 20 QA pairs per topic
+
 
 ## 🤖 **About the AgenticAI-DialogGen Framework**
 

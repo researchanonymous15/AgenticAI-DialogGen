@@ -1,5 +1,5 @@
 <h1 align="center">  
-AgenticAI-DialogGen: Topic-guided Conversation Generation for Fine-tuning and Evaluating Long-term Memory of LLMs
+AgenticAI-DialogGen: Topic-guided Conversation Generation for Fine-tuning and Evaluating Short- and Long-term Memory of LLMs
 </h1>  
 
 
